@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="fluid-container p-4">
+      <h1>ToDo List Application</h1>
+      <div class="mb-3">
+        <input
+          id="taskinput"
+          type="text"
+          class="form-control mb-4"
+          placeholder="enter new task"
+        />
+        <button id="addTask" class="btn btn-primary" type="submit">
+          Add new task
+        </button>
+      </div>
+      <div>
+        <ul id="taskList"></ul>
+      </div>
+      <button id="delAll" class="btn btn-danger" type="submit" disabled>
+        delete all checked tasks
+      </button>
+      <button id="checkAll" class="btn btn-warning" type="submit">
+        Check all
+      </button>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

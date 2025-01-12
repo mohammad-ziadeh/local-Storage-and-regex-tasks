@@ -1,0 +1,63 @@
+.completed {
+  color: gray;
+  text-decoration: line-through;
+}
+/* .newInput {
+  border: 0px solid;
+  outline: 0cap;
+}
+.newInput:active {
+  border: 0px solid;
+} */
+#addTask {
+  width: 120px;
+  font-size: small;
+}
+#delAll {
+  width: fit-content;
+  font-size: small;
+}
+#checkAll {
+  width: fit-content;
+  font-size: small;
+  color: white;
+}
+.check {
+  grid-column: 1;
+  grid-row: 1;
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+}
+.inputSpan {
+  grid-column: 2/3;
+  grid-row: 1;
+}
+.newInput {
+  grid-column: 2/3;
+  grid-row: 1;
+  height: 30px;
+}
+.btn-danger {
+  width: fit-content;
+  font-size: large;
+  grid-column: 6;
+}
+.btn-success {
+  width: fit-content;
+  font-size: large;
+  grid-column: 4;
+}
+.btn-warning {
+  width: fit-content;
+  font-size: large;
+  grid-column: 5;
+  color: white;
+}
+li {
+  width: 100%;
+  display: grid;
+  align-content: center;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}

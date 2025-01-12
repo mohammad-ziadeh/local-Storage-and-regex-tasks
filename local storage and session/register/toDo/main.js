@@ -131,8 +131,7 @@ function toggleComplete(task) {
 function displayName() {
   let savedEmail = localStorage.getItem("email");
   if (savedEmail) {
-    let parsedName = JSON.parse(savedEmail);
-    let Name = parsedName[0].split("@")[0];
+    let Name = savedEmail.split("@")[0];
     setTimeout(() => {
       alert("Hello " + Name);
     }, 2000);

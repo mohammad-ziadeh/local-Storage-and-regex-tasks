@@ -48,7 +48,6 @@ email.addEventListener("blur", () => {
   let errors = document.querySelectorAll(".error");
   errors.forEach((errorPop) => (errorPop.innerHTML = ""));
 });
-
 btn.addEventListener("click", (event) => {
   event.preventDefault();
   alert("U have successfully registered Yippeee!!!!!!!");

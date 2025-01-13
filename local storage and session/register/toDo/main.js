@@ -3,6 +3,7 @@ const addBtn = document.querySelector("#addTask");
 const taskList = document.getElementById("taskList");
 const delAll = document.getElementById("delAll");
 const allChecked = document.getElementById("checkAll");
+const h = document.getElementById("heading");
 
 taskInput.addEventListener("keypress", (event) => {
   if (event.key === "Enter") {
@@ -132,9 +133,7 @@ function displayName() {
   let savedEmail = localStorage.getItem("email");
   if (savedEmail) {
     let Name = savedEmail.split("@")[0];
-    setTimeout(() => {
-      alert("Hello " + Name);
-    }, 2000);
+    h.innerText = "Welcome " + Name;
   }
 }
 window.onload = displayName;

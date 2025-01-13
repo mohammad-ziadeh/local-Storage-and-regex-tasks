@@ -51,7 +51,7 @@ function addTask() {
       "It's empty ಠ╭╮ಠ",
       "Please enter something (´・ω・`)",
       "So... No tasks? (･ัω･ั)?",
-      "I'm watching IT'S STILL EMPTY ಠ╭╮ಠ",
+      "I'm watching IT'S STILL EMPTY #-#",
       "Ok just ignore me like everyone T-T",
       "Still nothing >-<",
     ];
